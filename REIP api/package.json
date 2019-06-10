@@ -1,0 +1,27 @@
+{
+  "name": "realestateinvestorportal",
+  "version": "1.0.0",
+  "description": "investor portal for YDLP",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dpreil/RealEstateInvestorPortal.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dpreil/RealEstateInvestorPortal/issues"
+  },
+  "homepage": "https://github.com/dpreil/RealEstateInvestorPortal#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "datamon": "^0.3.1",
+    "express": "^4.17.1",
+    "nodemon": "^1.19.1",
+    "pug": "^2.0.3"
+  }
+}
