@@ -88,8 +88,8 @@ header.masthead h1 {
 }
 
 .testimonials {
-  padding-top: 7rem;
-  padding-bottom: 7rem;
+  padding-top: 0rem;
+  padding-bottom: 3rem;
 }
 
 .testimonials .testimonial-item {
@@ -129,4 +129,17 @@ footer.footer {
 .dp-feature {
   font-size: 1.1rem;
   font-weight: 300;
+}
+
+.carousel-indicators li {
+  border-radius: 100%;
+  background: lightblue;
+}
+
+.dp-carousel-text {
+
+  padding-bottom: 3rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  height:20rem;
 }
