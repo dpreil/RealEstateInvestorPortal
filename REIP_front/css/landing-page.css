@@ -125,3 +125,8 @@ footer.footer {
   padding-top: 4rem;
   padding-bottom: 4rem;
 }
+
+.dp-feature {
+  font-size: 1.1rem;
+  font-weight: 300;
+}
