@@ -107,7 +107,7 @@ header.masthead h1 {
   background-color: #343a40;
   background: url("../img/bg-masthead.jpg") no-repeat center center;
   background-size: cover;
-  padding-top: 7rem;
+  padding-top: 9rem;
   padding-bottom: 7rem;
 }
 
@@ -142,4 +142,8 @@ footer.footer {
   padding-right: 2rem;
   padding-left: 2rem;
   height:20rem;
+}
+
+.dp-contact-form {
+  padding-right: 5rem;
 }
