@@ -3,6 +3,16 @@
  * Copyright 2013-2019 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-landing-page/blob/master/LICENSE)
  */
+html{
+  scroll-behavior: smooth;
+}
+
+.navbar{
+  position: fixed;
+  top:0;
+  width:100%;
+  z-index: 100;
+}
 
 body {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -67,8 +77,8 @@ header.masthead h1 {
 }
 
 .features-icons {
-  padding-top: 7rem;
-  padding-bottom: 7rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
 .features-icons .features-icons-item {
@@ -86,10 +96,40 @@ header.masthead h1 {
 .features-icons .features-icons-item:hover .features-icons-icon i {
   font-size: 5rem;
 }
+/*//services grid*/
+.services-grid{
+  display: grid;
+  min-width: 0px;
+  grid-template-columns: 5% 25% 7.5% 25% 7.5% 25% 5%;
+  grid-template-rows: 4vh 3vh 5vh 3vh 80vh;
+  grid-template-areas: "st st st st st st st"
+                       ".. .. .. .. .. .. .."
+                       ".. learn-img .. plan-img .. invest-img .."
+                       ".. .. .. .. .. .. .."
+                       ".. learn-srv .. plan-srv .. invest-srv ..";
+}
+.st{
+  grid-area:st;
+  align-self:center;
+  }
+.learn-img{grid-area:learn-img;}
+.plan-img{grid-area:plan-img;}
+.invest-img{grid-area:invest-img;}
+.learn-srv{ 
+  grid-area:learn-srv;
+  overflow: auto;}
+.plan-srv{
+  grid-area:plan-srv;
+  overflow:auto;}
+.invest-srv{
+  grid-area:invest-srv;
+  overflow:auto;}
+
 
 .testimonials {
   padding-top: 0rem;
-  padding-bottom: 3rem;
+  padding-bottom: 0rem;
+  height: 100vh;
 }
 
 .testimonials .testimonial-item {
@@ -240,3 +280,7 @@ footer.footer {
 .email_contact{grid-area: email_contact}
 .free_text{grid-area:free_text;}
 .submit_button{grid-area:submit_button;}
+
+.list-inline-item {
+  color: #0071BC;
+}
