@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500" height="500" version="1.1" viewBox="0 0 500.00001 500.00001" xmlns="http://www.w3.org/2000/svg">
+ <g fill="none" stroke="#555" stroke-linecap="round" stroke-linejoin="round">
+  <rect x="117.21" y="80.412" width="252.85" height="354.9" stroke-width="15"/>
+  <g stroke-width="3">
+   <rect x="329.13" y="115.33" width="19.479" height="19.479" rx="9.7395" ry="9.7395"/>
+   <path d="m334.12 123.17 5.5946 5.5946 14.966-14.966"/>
+  </g>
+  <g transform="translate(0 37.94)" stroke-width="3">
+   <rect x="329.13" y="115.33" width="19.479" height="19.479" rx="9.7395" ry="9.7395"/>
+   <path d="m334.12 123.17 5.5946 5.5946 14.966-14.966"/>
+  </g>
+  <path d="m142.22 125.07h166.84" stroke-width="10"/>
+  <path d="m142.22 163.01h146.2" stroke-width="10"/>
+  <path d="m142.22 200.95h150.79" stroke-width="10"/>
+  <path d="m142.22 238.89h162.26" stroke-width="10"/>
+  <path d="m142.22 276.83h165.7" stroke-width="10"/>
+  <path d="m142.22 314.77h166.84" stroke-width="10"/>
+  <path d="m142.22 352.71h162.26" stroke-width="10"/>
+  <path d="m142.22 390.65h147.92" stroke-width="10"/>
+  <g transform="translate(0 75.88)" stroke-width="3">
+   <rect x="329.13" y="115.33" width="19.479" height="19.479" rx="9.7395" ry="9.7395"/>
+   <path d="m334.12 123.17 5.5946 5.5946 14.966-14.966"/>
+  </g>
+  <rect x="329.13" y="229.15" width="19.479" height="19.479" rx="9.7395" ry="9.7395" stroke-width="3"/>
+  <rect x="329.13" y="267.09" width="19.479" height="19.479" rx="9.7395" ry="9.7395" stroke-width="3"/>
+  <g transform="translate(0 189.7)" stroke-width="3">
+   <rect x="329.13" y="115.33" width="19.479" height="19.479" rx="9.7395" ry="9.7395"/>
+   <path d="m334.12 123.17 5.5946 5.5946 14.966-14.966"/>
+  </g>
+  <g transform="translate(0 227.64)" stroke-width="3">
+   <rect x="329.13" y="115.33" width="19.479" height="19.479" rx="9.7395" ry="9.7395"/>
+   <path d="m334.12 123.17 5.5946 5.5946 14.966-14.966"/>
+  </g>
+  <rect x="329.13" y="380.91" width="19.479" height="19.479" rx="9.7395" ry="9.7395" stroke-width="3"/>
+ </g>
+</svg>
