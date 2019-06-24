@@ -12,6 +12,14 @@ html{
   top:0;
   width:100%;
   z-index: 100;
+  height:55px;
+}
+
+.scroll-wrapper{
+  height: calc(vh-55px);
+  position: absolute;
+  top:55px;
+  overflow-y: scroll;
 }
 
 body {
@@ -101,7 +109,7 @@ header.masthead h1 {
   display: grid;
   min-width: 0px;
   grid-template-columns: 5% 25% 7.5% 25% 7.5% 25% 5%;
-  grid-template-rows: 4vh 3vh 5vh 3vh 80vh;
+  grid-template-rows: 4vh 4vh 9vh 4vh 74vh;
   grid-template-areas: "st st st st st st st"
                        ".. .. .. .. .. .. .."
                        ".. learn-img .. plan-img .. invest-img .."
@@ -124,6 +132,13 @@ header.masthead h1 {
 .invest-srv{
   grid-area:invest-srv;
   overflow:auto;}
+
+.services::before {
+  content:"";
+  display: block;
+  height:65px;
+  margin: -55px 0 0;
+}
 
 
 .testimonials {
